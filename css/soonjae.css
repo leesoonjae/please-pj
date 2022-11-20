@@ -1,0 +1,101 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: none;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal.show {
+  display: block;
+}
+.modal_body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 400px;
+  height: 600px;
+
+  padding: 40px;
+
+  text-align: center;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(34, 36, 38, 0.15);
+
+  transform: translateX(-50%) translateY(-50%);
+}
+.profile-form {
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 400px;
+  height: 600px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+.profile-home {
+  position: absolute;
+}
+.profile-form h1 {
+  text-align: center;
+}
+.xxxx {
+  position: relative;
+}
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid black;
+  border-radius: 50%;
+  z-index: 0;
+  position: absolute;
+}
+.profile-camera {
+  position: absolute;
+  margin-top: 280px;
+  z-index: 1;
+}
+.input-gear {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.input-gear::placeholder {
+  color: #bec3c9;
+}
+.input-gear[type="text"]::placeholder {
+  font-family: "Material Icons Outlined";
+}
+.input-gear:hover {
+  border-color: aquamarine;
+}
+.btn-login {
+  background-color: #bec3c9;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #bec3c9;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-right: 80px;
+  box-sizing: border-box;
+}
+.btn-login:hover {
+  background-color: #555b63;
+}
+.btn-gear {
+  margin-right: 5px;
+}
